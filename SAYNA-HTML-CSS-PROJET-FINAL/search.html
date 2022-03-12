@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap 1.css">
+    <link rel="stylesheet" href="css/bootstrap 1.min.css">
+    <script src="https://kit.fontawesome.com/ad459fe674.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--------------------------------------------------- PART 1  ---------------------------------------------->
+ <header class="container-fluid">
+   <nav class="container-fluid row">
+       <figure class="col"><img src="Assets/Images/group-2.svg" width="100px" alt=""><a href="index.html">[Events]</a></figure>
+       <ul class="col-4 row" style="margin-left: 70px;">
+           <li class="col"><i class="fa-solid fa-magnifying-glass"></i><a href="search.html">Search</a></li>
+           <li class="col"><i class="fa-solid fa-user-large"></i><a href="about.html">About</a></li>
+           <li class="col"><i class="fa-solid fa-rss"></i><a href=""> Blog</a></li>
+           <li class="col"><i class="fa-solid fa-bars"></i><a href=""> More</a></li>
+       </ul>  
+   </nav>
+ </header>
+ <br><br>
+ <!--------------------------------------------------- PART 2  ---------------------------------------------->
+ <div class="container-fluid" id="ZT">
+     <div class="container-fluid">
+         <h3 class="text-center">Filter By Location, host, subject, date, daytime:</h3>
+     </div>
+     <div class="container-fluid">
+         <ul>
+             <li>
+             <h5>Location</h5>
+             <input type="text" id="T1">
+        </li>
+         <li>
+            <h5>Host</h5>
+            <input type="text" id="T1">
+         </li>
+        <li>
+            <h5>Subject</h5>
+            <input type="text" id="T1">
+        </li>
+        <li>
+            <h5>Initial Date</h5>
+            <input type="text" id="T2">
+        </li>
+        <li>
+            <h5>Finale Date</h5>
+            <input type="text" id="T2">
+        </li>
+        <li id="LI">
+            <h5>Daytime</h5>
+            <button>Choose...</button>
+        </li>
+        <li id="LO">
+            <br>
+            <button class="bg-primary">Search</button>
+        </li>
+        <li id="BT">
+            <br>
+            <button class="bg-warning" style="width: 100px;"><i class="fa-solid fa-pen-to-square" style="color: white;"></i> Clear filter</button>
+        </li>
+    </ul>
+     </div>
+ </div>
+ <!--------------------------------------------------- PART 3  ---------------------------------------------->
+ <div class="container-fluid" id="POL">
+     <div class="container-fluid text-center" id="RTx">
+         <h4 class="text-center">Search Result Found 7 [Events] Nearby.</h4>
+     </div>
+     <div class=" row container-fluid " id="kl">
+         <figure class="col-4"><h6> go to [gathering] example </h6><img src=".//Assets/Images/group-2.svg" alt=""></figure>
+         <figure class="col-4"><h6> go to [gathering] example </h6><img src=".//Assets/Images/group-2.svg" alt=""></figure>
+         <figure class="col-4"><h6> go to [gathering] example </h6><img src=".//Assets/Images/group-2.svg" alt=""></figure>
+    </div>
+ </div>
+ 
+  <!--------------------------------------------------- FOOTER  ----------------------------------------------> 
+  <div id="ty" class="container-fluid">
+    <div id="ip" class="container-fluid">
+        <div class="row text-center" style="margin-left: 450px;margin-top: 50px;">
+             <ul class=" col-3" style="margin-top: 25px;width: 320px;">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="index.html">DIVERTISE</a></li>
+             </ul>
+         <div id="IMA">
+        <i class="fa-solid fa-location-dot"></i>
+         </div>
+             <ul class="col-3"  style="margin-top: 25px;width: 310px;margin-left: 10px;">
+                 <li><a href="index.html">FACEBOOK</a></li>
+                 <li><a href="index.html">TWITTER</a></li>
+                 <li><a href="index.html">INSTAGRAM</a></li>
+                 <li><a href="index.html">BLOG</a></li>
+             </ul>
+    </div>
+    <div class="row" id="rt">
+    <div class="col-4 text-center">
+        <h4>Subscribe</h4>
+        <input type="email" placeholder="Insert your e-mail here">
+        <button>send</button>
+    </div>
+    <div class="col-4 text-center">
+        <h4>Contact</h4>
+        <p>Have a question or sugestion?</p>
+        <a href="mailto:contact@events.com?subject=Ask Me Anithing">contact@events.com</a>
+    </div>
+    <div class="col-4 text-center">
+        <h4>About</h4>
+        <p>[Events] is an online plataform that works to improve and increase social life connections, when this nightmare that we are curently living in is over <a href="about">learn more</a></p>
+    </div>
+   </div>
+ </div>
+</div>
+<footer class="container-fluid">
+   <div class="row">
+   <ul class="col-4">
+       <li><i class="fa-brands fa-facebook-square" style="color:  #98a5a5;;"></i></li>
+       <li><i class="fa-brands fa-twitter" style="color:  #98a5a5;"></i></li>
+       <li><i class="fa-brands fa-instagram" style="color:  #98a5a5;"></i></li>
+       <li><i class="fa-brands fa-tumblr"  style="color:  #98a5a5;"></i></li>
+       <li><i class="fa-brands fa-linkedin" style="color:  #98a5a5;"></i></li>
+   </ul>
+   <P class="col-8 text-end">©2020 [Events],Inc All rigths reserved</P>
+</div>
+</footer>
+<!--------------------------------------------------- END  ----------------------------------------------> 
+</body>

@@ -1,0 +1,198 @@
+/**************************** PART 1 *************************/
+header{
+    background-color: #d35649; 
+}
+header figure{
+display: flex;
+flex-direction: row;
+padding: 20px 0px;
+}
+
+nav figcaption{
+margin-top: 10px;
+}
+nav figure a{
+font-size: 2.5em;
+text-shadow: 1px 2px 1px blue;
+color: white;
+text-decoration: none;
+}
+header ul li{
+list-style: none;
+padding-top: 50px;
+color: white;
+margin-left: 20px;
+width: 100px;
+}
+header ul li a{
+text-decoration: none;
+color: white;
+font-weight: 600;
+margin-left: 3px;
+}
+header nav ul li a:hover,i:hover{
+    color:  #98a5a5;
+    text-decoration: none;
+}
+/**************************** PART 2 *************************/
+#ZT{
+    background-color:   #c8d1d1;
+    height: 220px;
+
+}
+#ZT h3{
+    color:   #828a8a;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+#ZT ul{
+    list-style: none;
+    display: flex;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+#ZT ul li h5{
+    font-weight: 800;
+    font-size: 1.1em;
+}
+#ZT li{
+    padding: 0px 7px;
+}
+#T1{
+    width: 90px;
+}
+#T2{
+    width: 170px;
+}
+#ZT input{
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    margin-top: 10px;
+}
+#ZT #LI button{
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    width: 110px;
+    margin-top: 10px;
+}
+#LO button,#BT button{
+    border: none;
+    border-radius: 7px;
+    color: white;
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+}
+/**************************** PART 3 *************************/
+#RTx{
+    padding-top: 20px;
+}
+#RTx h4{
+font-size: 1.6em;
+font-weight: 600;
+color:   #828a8a;
+margin-top: 3%;
+}
+#POL figure{
+    background-color: #d35649;
+    width: 350px;
+    height: 330px;
+    margin: 0px 20px;
+}
+#POL figure img{
+    width: 350px;
+    height: 310px;
+}
+#POL h6{
+    width: 350px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #98a5a5;
+}
+#kl{
+    margin-top: 30px;
+    margin-left: 170px;
+    padding-bottom: 70px;
+}
+/************************* FOOTER **************************/
+#ty{
+    background-color: black;
+    height: 350px;
+}
+#ty ul{
+    list-style: none;
+    display: flex;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 300px;
+    height: 45px;
+}
+#ty li{
+    padding: 10px 5px;
+    height: 45px;
+}
+#ty ul a{
+    color: white;
+    font-size: 00.9em;
+    font-weight: 800;
+}
+#IMA{
+    width: 110px;
+}
+#ty i{
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 45px 45px;
+    margin: 0px 5px 0px 0px;
+}
+#ty h4{
+    color: white;
+    font-weight: 800;
+}
+#ty input{
+    background-color: black;
+    border: 0.1px solid #626969;
+    height: 30px;
+}
+#ty button{
+    border: 1px solid  #858a8a ;
+    color: white;
+    font-weight: 700;
+    background-color: #666d6d;
+    font-size: 00.9em;
+    height: 38px;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: -8px;
+    margin-top: 20px;
+}
+#rt{
+    margin-top: 75px;
+}
+#rt a{
+    color: #d35649;
+}
+#rt p{
+    color: white;
+}
+footer{
+    background-color:  rgb(68, 62, 62);
+    display: flex;
+    flex-direction: row;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer li{
+    padding: 20px 12px;
+}
+footer p{
+    color:  #98a5a5;
+    padding: 20px 12px;
+    float: right;
+}

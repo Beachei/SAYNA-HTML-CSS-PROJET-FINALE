@@ -1,0 +1,222 @@
+/**************************** PART 1 *************************/
+header{
+    background-color: #d35649; 
+}
+header figure{
+display: flex;
+flex-direction: row;
+padding: 20px 0px;
+}
+
+nav figcaption{
+margin-top: 10px;
+}
+nav figure a{
+font-size: 2.5em;
+text-shadow: 1px 2px 1px blue;
+color: white;
+text-decoration: none;
+}
+header ul li{
+list-style: none;
+padding-top: 50px;
+color: white;
+margin-left: 20px;
+width: 100px;
+}
+header ul li a{
+text-decoration: none;
+color: white;
+font-weight: 600;
+margin-left: 3px;
+}
+header nav ul li a:hover,i:hover{
+    color:  #98a5a5;
+    text-decoration: none;
+}
+/************************* PART 2 **************************/
+#PART2{
+    height: 380px;
+    background-size: 100% 400px;
+}
+#PART2 h3{
+    font-size: 2.3em;
+    padding-top: 60px;
+    color: white;
+    text-shadow: 1px 2px 1px rgb(48, 47, 47);
+}
+#block{
+    border: 1px solid rgb(179, 172, 172);
+    background-color: rgba(255, 255, 255, 0.664);
+    width: 48%;
+    border-radius: 3px;
+    margin-top: 1.5%;
+}
+#block h4{
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 30px 0% 15px;
+}
+#block form input{
+    border-radius: 4px;
+    border: 1px solid rgb(179, 172, 172);
+    height: 31px;
+}
+#block form button{
+  margin-left: -2%;
+  width: 71px;
+  border-radius: 3px;
+  background-color: #d35649;
+  border: 1px solid #d35649;
+  height: 30px;
+  color: white;
+  font-weight: 700;
+}
+#block form{
+    padding-bottom: 2%;
+}
+#PART2 #R1{
+    border: 1px solid rgb(179, 172, 172);
+    background-color: rgba(255, 255, 255, 0.664);
+    margin-top: 19px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: 800;
+}
+/************************* PART 3 **************************/
+#PART3 h4{
+    color: #d35649;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+#PART3 section{
+    margin-top: 6%;
+}
+section div{
+    padding: 2% 0%;
+}
+/************************* PART 4 **************************/
+#line1{
+ background-color: #d35649;
+ height: 350px;
+}
+#line2{
+    background-color:  #98a5a5;
+    height: 350px;
+}
+#line3{
+    background-color:  #509bd7;
+    height: 350px;
+}
+#PART4 figure{
+padding-top: 50px;
+}
+#PART4 img{
+    float: right;
+    
+}
+#PART4 span{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+#PART4 p{
+    color: white;
+    font-weight: 200;
+    text-align: start;
+    margin-top: 5.5%;
+}
+#PART4 section{
+    padding-top: 5%;
+} 
+#PART4 button{
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 5% ;
+}
+#line1 button{
+    color: #d35649;
+}
+#line2 button{
+    color: #98a5a5;
+}
+/************************* FOOTER **************************/
+#ty{
+    background-color: black;
+    height: 350px;
+}
+#ty ul{
+    list-style: none;
+    display: flex;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 300px;
+    height: 45px;
+}
+#ty li{
+    padding: 10px 5px;
+    height: 45px;
+}
+#ty ul a{
+    color: white;
+    font-size: 00.9em;
+    font-weight: 800;
+}
+#IMA{
+    width: 110px;
+}
+#ty i{
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 45px 45px;
+    margin: 0px 5px 0px 0px;
+}
+#ty h4{
+    color: white;
+    font-weight: 800;
+}
+#ty input{
+    background-color: black;
+    border: 0.1px solid #626969;
+    height: 30px;
+}
+#ty button{
+    border: 1px solid  #858a8a ;
+    color: white;
+    font-weight: 700;
+    background-color: #666d6d;
+    font-size: 00.9em;
+    height: 38px;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: -8px;
+    margin-top: 20px;
+}
+#rt{
+    margin-top: 75px;
+}
+#rt a{
+    color: #d35649;
+}
+#rt p{
+    color: white;
+}
+footer{
+    background-color:  rgb(68, 62, 62);
+    display: flex;
+    flex-direction: row;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer li{
+    padding: 20px 12px;
+}
+footer p{
+    color:  #98a5a5;
+    padding: 20px 12px;
+    float: right;
+}
